@@ -1,5 +1,24 @@
 # @qwik.dev/city
 
+## 2.0.0-rc.5
+
+### Patch Changes
+
+- 🐞🩹 preload bundles for catch-all routes on link prefetch and navigation (by [@Varixo](https://github.com/Varixo) in [#9304](https://github.com/QwikDev/qwik/pull/9304))
+
+- 🐞🩹 log and finish the response when SSR fails in dev after the response has started (by [@akasakariko](https://github.com/akasakariko) in [#9293](https://github.com/QwikDev/qwik/pull/9293))
+
+- 🐞🩹 avoid quadratic parameter-value joins when matching long catch-all request paths (by [@Varixo](https://github.com/Varixo) in [#9320](https://github.com/QwikDev/qwik/pull/9320))
+
+- 🐞🩹 settle failed action submissions and prevent duplicate form requests (by [@Varixo](https://github.com/Varixo) in [#9275](https://github.com/QwikDev/qwik/pull/9275))
+
+- 🐞🩹 keep a Back pressed during an in-flight navigation (by [@akasakariko](https://github.com/akasakariko) in [#9262](https://github.com/QwikDev/qwik/pull/9262))
+
+- 🐞🩹 service workers that share modules with the app now register (by [@mevichitra](https://github.com/mevichitra) in [#9227](https://github.com/QwikDev/qwik/pull/9227))
+
+- Updated dependencies [[`f59f39b`](https://github.com/QwikDev/qwik/commit/f59f39b7cc7ab2dbb480f7e41d7361672b878fc7), [`e654d7b`](https://github.com/QwikDev/qwik/commit/e654d7b993cc3f464790d63a04f7881cfaa430fd), [`15e246c`](https://github.com/QwikDev/qwik/commit/15e246c6204d3ff20a28d5fe1e1ce244ee405862), [`bd7741c`](https://github.com/QwikDev/qwik/commit/bd7741c1f9fa6b05c5ff427a12c169b6219af79f), [`a1f47ae`](https://github.com/QwikDev/qwik/commit/a1f47aef6f2e0cbc28c342d76644850dcf4bed61)]:
+  - @qwik.dev/core@2.0.0-rc.5
+
 ## 2.0.0-rc.4
 
 ### Patch Changes

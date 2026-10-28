@@ -1,5 +1,19 @@
 # @qwik.dev/core
 
+## 2.0.0-rc.5
+
+### Patch Changes
+
+- 🐞🩹 ssr no longer fails on deep props over objects holding functions (by [@intellix](https://github.com/intellix) in [#9302](https://github.com/QwikDev/qwik/pull/9302))
+
+- 🐞🩹 inserting a new node without children no longer recreates the next sibling's children (by [@yiannis-psomadelis](https://github.com/yiannis-psomadelis) in [#9315](https://github.com/QwikDev/qwik/pull/9315))
+
+- 🐞🩹 settle failed action submissions and prevent duplicate form requests (by [@Varixo](https://github.com/Varixo) in [#9275](https://github.com/QwikDev/qwik/pull/9275))
+
+- 🐞🩹 a conditional element no longer moves to the end of its parent after resume (by [@yiannis-psomadelis](https://github.com/yiannis-psomadelis) in [#9313](https://github.com/QwikDev/qwik/pull/9313))
+
+- 🐞🩹 bundle image-size 2.0.4 to address its denial-of-service advisories (by [@wmertens](https://github.com/wmertens) in [#9296](https://github.com/QwikDev/qwik/pull/9296))
+
 ## 2.0.0-rc.4
 
 ### Minor Changes
